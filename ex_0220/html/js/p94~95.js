@@ -11,3 +11,25 @@ while (i < 10) {
 }
 s1.innerHTML = text;
 s1.innerHTML += "=== The End ===";
+ //------- p.95 연습문제 2번
+ var text = "";
+ var num = 1;
+ var t = "<table border = 1>";
+ for(var i = 1; i <= 5; i++) {
+      t += "<tr>";
+
+      for(var k = 1; k <= 5; k++){
+            t += "<td>" + num + "</td>";
+            num ++;
+      }
+
+      t += "</tr>";
+ }
+
+ t += "</table>";
+ console.log(t);
+ //document.write(t);
+ text += t;
+
+ s2.innerHTML = text;
+ s2.innerHTML += "=== 끝 ===";
