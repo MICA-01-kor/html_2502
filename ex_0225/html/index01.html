@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index01.css" />
+  </head>
+  <body onload="checkCookies()">
+    <section class="s1">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onclick() 속성 1</h2>
+      <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+    </section>
+    <section class="s2">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onclick() 속성 2</h2>
+      <h2 onclick="changeText(this)">Click on this text!</h2>
+    </section>
+    <section class="s3">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onclick() 속성 3</h2>
+      <p>Click the button to display the date.</p>
+      <button onclick="displayDate1()">The time is?</button>
+      <p id="demo1"></p>
+    </section>
+    <section class="s4">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onclick() 속성4</h2>
+      <p>Click "Try it" to execute the displayDate() function.</p>
+      <button id="myBtn">Click Me!</button>
+      <p id="demo2"></p>
+    </section>
+    <section class="s5">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onload() 속성</h2>
+      <p id="demo3"></p>
+    </section>
+    <section class="s6">
+      <h1>이벤트에 반응하기</h1>
+      <h2>oninput() 속성</h2>
+      Enter your Name : <input type="text" id="fname" oninput="UpperCase()" />
+      <p>
+        When you write in the input filed, a function is triggered to transform
+        the input to upper case.
+      </p>
+    </section>
+    <section class="s7">
+      <h1>이벤트에 반응하기</h1>
+      <h2>onchange() 속성</h2>
+      Enter Your Name :
+      <input type="text" id="fname2" onchange="UpperCase2()" />
+      <p>
+        When you leave the input field, a function transform the input to upper
+        case.
+      </p>
+    </section>
+    <section class="s8">
+        <h1>이벤트에 반응하기</h1>
+        <h2>onmouseover() 속성</h2>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+        style="background-color: red; width: 120px; height: 20px; padding: 40px;">Mouse Over me!</div>
+    </section>
+    <section class="s9">
+        <h1>이벤트에 반응하기</h1>\
+        <h2>onmousedown, onmouseup 및 onclick 이벤트 속성 2</h2>
+        <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+        style="background-color: red; width: 120px; height: 20px; padding: 40px;">Clike Me!! </div>
+    </section>
+    <script src="./js/index01.js"></script>
+  </body>
+</html>

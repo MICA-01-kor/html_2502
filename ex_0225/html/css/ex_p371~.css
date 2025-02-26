@@ -1,0 +1,100 @@
+/* section {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+} */
+/* body {
+    font: 14px 맑은 고딕;
+}
+.s3 .container {
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+}
+.s3 header {
+    position: relative;
+    height: 280px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.s3 h1 {
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    font-size: 3em;
+    color: #ffc;
+    text-shadow: 1px 2px 2px #000;
+}
+.s3 h2 {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    font-size: 2em;
+    color: #ff0;
+} */
+/* .navi ul {
+    list-style: none;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #000;
+}
+.navi ul li {
+    display: inline;
+    font-size: 15px;
+    margin-right: 105px;
+}
+.navi a, .navi a:visited {
+    padding: 10px 5px 5px 35px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.navi a:hover, .navi a:active, .navi a:focus {
+    text-shadow: 0px 2px 2px #000;
+    color: #ff0;
+} */
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 550px;
+    background-color: lawngreen ;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.s4 .sidebar img {
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: block;
+}
+.s4 {
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 720px;
+    float: left;
+}
+.banner {
+    margin: 0 10px 15px 10px;
+    padding: 0;
+}
+footer {
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 170px;
+    left: 1em;
+    background-color: black;
+    color: white;
+    width: 940px;
+}
