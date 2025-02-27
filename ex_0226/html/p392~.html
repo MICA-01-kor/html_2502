@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/p392.css" />
+  </head>
+  <body>
+    <section class="s1">
+       <h2>플레이어와 함께 오디오 삽입하기</h2>
+      <audio src="./media/bgsound.mp3" controls></audio>
+      <div class="top"></div>
+    </section>
+    <section class="s2">
+        <h2>컨트롤 막대가 있는 비디오 삽입하기</h2>
+        <video src="./media/Painting.mp4" controls></video>
+    </section>
+    <secton class="s3">
+        <h2>컨트롤 막대가 없는 비디오 삽입하기</h2>
+        <video src="./media/Painting.mp4"></video>
+    </secton>
+    <section class="s4">
+        <h2>여러 형식의 비디오 파일 함께 삽입하기</h2>
+        <video width="400" height="250" controls preload="none">
+        <source src="./media/Painting.mp4" type="video/mp4">
+        <source src="./media/Painting.webm" type="video/webm">
+        </video>
+    </section>
+    <section class="s5">
+      <h2>비디오 파일에 자막 파일 연결하기</h2>
+      <video controls>
+        <source src="./media/Painting.mp4" type="video/mp4">
+        <track src="./media/Painting.vtt" srclang="ko" label="Korean" default>
+      </video>
+    </section>
+    <section class="s6">
+      <video controls>
+        <source src="./media/Beach.mp4" type="video/mp4">
+        <source src="./media/Beach.webm" type="video/webm">
+      </video>
+    </section>
+  </body>
+</html>
