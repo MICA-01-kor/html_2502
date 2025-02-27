@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        font-weight: bold;
+      }
+      button {
+        margin: 10px;
+        width: 100px;
+        height: 60px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -o-transition: 2s;
+        -ms-transition: 2s;
+        font-weight: bold;
+        color: black;;
+      }
+      button:hover {
+        color: tomato;
+        background-color: #ebcbfe;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- usemap=""은 이미지의 특정 영역을 클릭할 수 있는 링크로 만들때 사용
+         useemap 값은 '#'로 시작해야 한다. map요소 name과 일치해야 한다. -->
+    <section class="s1">
+      <p>
+        <img
+          src="./images/window_object_1.jpg"
+          usemap="#intro"
+          alt="신간 책 소개"
+        />
+        <map name="intro" id="intro">
+          <area
+            shape="rect"
+            coords="230,368,280,390"
+            href="#"
+            alt="창 닫기"
+            onclick="window.close();"
+          />
+        </map>
+      </p>
+      <button onclick="window.open('winpopup.html', 'pop1', 'width = 300, height = 400, left = 300, top = 50')">팝업 열기</button>
+    </section>
+    <!-- alert() 단 방향 커뮤니케이션
+         prompt() 사용자의 텍스트를 입력 받음
+         confirm() 사용자의 yes/no를 입력 받음 -->
+    <section class="s2">
+      <button onclick="setIntervalr(auto_1)">증가 시작</button>
+      <button onclick="clearInterval(auto_1)">증가 정지</button>
+      <button onclick="setInterval(auto_2)">감소 시작</button>
+      <button onclick="clearInterval(auto_2)">감소 정지</button>
+    </section>
+    <section class="s3">
+      <p id="demo1"></p>
+    </section>
+
+    <section class="s4">
+      <p id="demo2"></p>
+      <button onclick="location.href='https://www.google.com'">
+        구글로 이동</button
+      ><br />
+      <button onclick="location.reload()">새로고침</button>
+    </section>
+    <section class="s5">
+      <p id="demo3"></p>
+    </section>
+    <script src="./js/p134~.js"></script>
+  </body>
+</html>
