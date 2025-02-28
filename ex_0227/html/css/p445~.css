@@ -1,0 +1,41 @@
+section {
+    border: 1px solid #ccc;
+}
+
+
+.s1 ul li {
+    margin: 15px;
+}
+.s1 li.hot::after{
+    content: "NEW!";
+    font-size: x-small;
+    padding: 2px 4px;
+    margin: 0 10px;
+    border-radius: 2px;
+    background: #f00;
+    color: #fff;
+}
+.s2 p {
+    font-family: "맑은 고딕";
+    font-weight: bold;
+    color: #f00;
+}
+.s2 .orange:hover {
+    border: 5px solid black;
+}
+#container {
+    border: 1px solid black;
+    width: 500px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+}

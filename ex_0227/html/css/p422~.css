@@ -1,0 +1,202 @@
+section {
+  margin: 10px;
+}
+#container ul {
+  border: 1px dotted blue;
+}
+
+#container2 > ul {
+  border: 1px dotted blue;
+}
+.s3 h1 + ul {
+  color: blue;
+  font-weight: bold;
+}
+.s4 h1 ~ ul {
+  color: blue;
+  font-weight: bold;
+}
+#Div {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.s5 div + p {
+  color: blue;
+  font-weight: bold;
+}
+.s6 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+.s6 a {
+  text-decoration: none;
+}
+
+.s6 a[href] {
+  background-color: yellow;
+}
+.s7 a[target="_blank"] {
+  padding-right: 30px;
+  background: url(../images/newwindow.png) no-repeat center right;
+}
+.s7 ul li {
+  list-style-type: none;
+}
+.s7 a {
+  text-decoration: none;
+}
+.s8 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+}
+.s8 a {
+  text-decoration: none;
+}
+.s8 .flat {
+  background-color: blue;
+  color: white;
+}
+.s8 [class~="button"] {
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 1) 5px 5px;
+}
+.s9 ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.s9 a {
+  text-decoration: none;
+  padding: 3px;
+}
+.s9 a[title|="us"] {
+  background: url(../images/us.png) no-repeat left center;
+  padding: 5px 25px;
+}
+.s9 a[title|="japanese"] {
+  background: url(../images/jp.png) no-repeat left center;
+  padding: 5px 25px;
+}
+.s10 ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.s10 a {
+  text-decoration: none;
+  padding: 3px;
+}
+.s10 a[title^="eng"] {
+  background: url(../images/us.png) no-repeat left center;
+  padding: 5px 25px;
+}
+.s10 a[title^="jap"] {
+  background: url(../images/jp.png) no-repeat left center;
+  padding: 5px 25px;
+}
+.s10 a[title^="chin"] {
+  background: url(../images/ch.png) no-repeat left center;
+  padding: 5px 25px;
+}
+.s11 a[href$="hwp"] {
+  background: url(../images/hwp_icon.gif) no-repeat right center;
+  padding: 25px;
+}
+.s11 a[href$="xls"] {
+  background: url(../images/excel_icon.gif) no-repeat right center;
+  padding: 25px;
+}
+.s11 ul {
+  list-style: square;
+}
+.s12 a[href*="w3"] {
+  background: blue;
+  color: white;
+}
+.s12 a {
+  text-decoration: none;
+  margin: 5px;
+}
+.s12 ul li {
+  margin: 10px;
+}
+.s12 ul {
+  list-style: circle;
+}
+.s13 p[class~="accent"] {
+  border: 1px solid black;
+}
+.s14 .navi ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.s14 .navi a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.s14 .navi a:link,
+.navi a:visited {
+  font-size: 14px;
+  padding: 10px;
+}
+.s14 .navi a:hover,
+.navi a:focus {
+  background-color: #222;
+  color: #fff;
+}
+.s14 .navi a:active {
+  background-color: #f00;
+}
+.s15 input:disabled {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+.s15 input:checked + span {
+  color: blue;
+}
+#container3 {
+  text-align:center;
+  color:#2b2b2b;
+}
+table, tb, th {
+  border:1px solid #ccc;
+}
+table {
+  width:200px;
+  margin:0 auto;
+  border-collapse:collapse;
+}
+td {			
+  text-align:left;
+  padding:10px;
+  padding-left:20px;
+}
+table tr:nth-child(2n+1) {
+  background:lightgray;
+  color:black;
+}
+.s17 ul li {
+  list-style-type: none;
+  display: block;
+  width: 8em;
+  height: 3em;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px #bbb;
+  font-size: 20px;
+}
+.s17 a {
+  text-decoration: none;
+  color: black;
+}
+.s17 .navi2 li:first-child{
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+.s17 .navi2 li:last-child{
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
